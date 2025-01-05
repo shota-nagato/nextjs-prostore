@@ -1,4 +1,5 @@
 import Header from "@/components/shared/header";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: 'Home',
@@ -11,10 +12,11 @@ export default function RootLayout({
 }>) {
   return (
     <div className="flex h-screen flex-col">
+      <Header />
       <main className="flex-1 wrapper">
-        <Header />
         {children}
       </main>
+      <Footer />
     </div>
   );
 }
