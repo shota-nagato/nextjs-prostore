@@ -1,4 +1,4 @@
-import { APP_NAME } from "@/lib/constants";
+import { APP_NAME } from '@/lib/constants'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -9,7 +9,7 @@ const Footer = () => {
         {currentYear} {APP_NAME}. All Rights Reserved
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
