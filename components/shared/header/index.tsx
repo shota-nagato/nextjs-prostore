@@ -1,8 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { APP_NAME } from '@/lib/constants';
-import Menu from './menu';
-
+import Image from 'next/image'
+import Link from 'next/link'
+import { APP_NAME } from '@/lib/constants'
+import Menu from './menu'
 
 const Header = () => {
   return (
@@ -25,7 +24,7 @@ const Header = () => {
         <Menu />
       </div>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
